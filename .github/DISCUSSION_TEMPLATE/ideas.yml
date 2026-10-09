@@ -1,12 +1,10 @@
-name: Feature request
-description: Suggest something new or a change to the app.
-title: "[Feature] "
+title: "[Idea] "
 labels: ["feature"]
 body:
   - type: markdown
     attributes:
       value: |
-        Search existing issues first and add a 👍 if your idea is already there.
+        Search existing ideas first and upvote it (▲) if your idea is already there.
         Never include health information, API keys or personal photos.
   - type: textarea
     id: problem

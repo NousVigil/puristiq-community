@@ -6,11 +6,17 @@ The app's source code is private. This repository holds **no code**. It exists s
 
 ## How to take part
 
-- **Ask for a feature:** [open a feature request](../../issues/new?template=feature_request.yml)
-- **Ask for another AI provider** (the app currently supports the OpenAI API, which also covers local models such as Ollama and LM Studio): [open an AI provider request](../../issues/new?template=ai_provider_request.yml)
-- **Report a bug:** [open a bug report](../../issues/new?template=bug_report.yml)
-- **Report a missing or wrong ingredient:** [open a data report](../../issues/new?template=ingredient_data.yml)
-- **Vote:** add a 👍 reaction to an existing issue instead of opening a duplicate. We use 👍 counts to decide what to build next.
+**Ideas and requests → [Discussions](https://github.com/NousVigil/puristiq-community/discussions)**
+
+- **Suggest a feature:** [new idea](https://github.com/NousVigil/puristiq-community/discussions/new?category=ideas)
+- **Ask for another AI provider** (the app currently supports the OpenAI API, which also covers local models such as Ollama and LM Studio): [new AI provider request](https://github.com/NousVigil/puristiq-community/discussions/new?category=ai-providers)
+- **Ask a question:** [Q&A](https://github.com/NousVigil/puristiq-community/discussions/new?category=q-a)
+- **Vote:** upvote (▲) existing ideas instead of posting duplicates. We read the list sorted by **Top** to decide what to build next. Accepted ideas become issues so you can follow the work.
+
+**Problems to fix → [Issues](https://github.com/NousVigil/puristiq-community/issues)**
+
+- **Report a bug:** [bug report](https://github.com/NousVigil/puristiq-community/issues/new?template=bug_report.yml)
+- **Report a missing or wrong ingredient:** [data report](https://github.com/NousVigil/puristiq-community/issues/new?template=ingredient_data.yml)
 
 You can write in any of the app's 24 languages; English helps more people read it.
 

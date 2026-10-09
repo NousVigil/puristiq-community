@@ -1,5 +1,11 @@
 blank_issues_enabled: false
 contact_links:
-  - name: PuristIQ website
-    url: https://puristiq.net
-    about: General information about the app.
+  - name: Suggest a feature
+    url: https://github.com/NousVigil/puristiq-community/discussions/new?category=ideas
+    about: Ideas and feature requests live in Discussions, where the community can upvote them.
+  - name: Ask for another AI provider
+    url: https://github.com/NousVigil/puristiq-community/discussions/new?category=ai-providers
+    about: Request support for an AI provider other than the OpenAI API.
+  - name: Ask a question
+    url: https://github.com/NousVigil/puristiq-community/discussions/new?category=q-a
+    about: Questions about using PuristIQ.

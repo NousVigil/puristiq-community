@@ -1,5 +1,3 @@
-name: AI provider request
-description: Ask for support for an AI provider other than the OpenAI API.
 title: "[AI provider] "
 labels: ["ai-provider"]
 body:
@@ -8,7 +6,7 @@ body:
       value: |
         PuristIQ lets you connect your own AI model to read labels when its database cannot.
         Today it supports the **OpenAI API**, which also covers local models (Ollama, LM Studio).
-        If the provider you want is already requested, add a 👍 to that issue instead.
+        If the provider you want is already requested, upvote (▲) that discussion instead.
         **Never paste an API key here.**
   - type: input
     id: provider

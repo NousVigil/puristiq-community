@@ -1,0 +1,43 @@
+name: Missing or wrong ingredient
+description: An ingredient was not detected, was flagged wrongly, or has a wrong translation.
+title: "[Data] "
+labels: ["data"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Describe the ingredient, not your health. Never include health information or personal photos.
+        A photo of the ingredient list only (no receipts, faces or addresses) is welcome.
+  - type: input
+    id: ingredient
+    attributes:
+      label: Ingredient name as printed on the label
+    validations:
+      required: true
+  - type: input
+    id: language
+    attributes:
+      label: Language of the label
+    validations:
+      required: true
+  - type: dropdown
+    id: problem
+    attributes:
+      label: What is wrong?
+      options:
+        - Not detected at all
+        - Flagged when it should not be
+        - Not flagged when it should be
+        - Wrong or missing translation
+        - Other
+    validations:
+      required: true
+  - type: input
+    id: barcode
+    attributes:
+      label: Product barcode (optional)
+  - type: textarea
+    id: details
+    attributes:
+      label: Details and sources
+      description: Links to sources (e.g. EU additive lists) help us verify the change.

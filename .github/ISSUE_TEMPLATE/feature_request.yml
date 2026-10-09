@@ -1,0 +1,39 @@
+name: Feature request
+description: Suggest something new or a change to the app.
+title: "[Feature] "
+labels: ["feature"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Search existing issues first and add a 👍 if your idea is already there.
+        Never include health information, API keys or personal photos.
+  - type: textarea
+    id: problem
+    attributes:
+      label: What problem do you want solved?
+      description: Describe the situation, not only the solution.
+    validations:
+      required: true
+  - type: textarea
+    id: idea
+    attributes:
+      label: What would you like the app to do?
+    validations:
+      required: true
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area of the app
+      options:
+        - Scanning (camera / barcode)
+        - Results and warnings
+        - Health profiles
+        - Pet food
+        - Shopping list
+        - Backup
+        - AI label reading
+        - Languages / translations
+        - Other
+    validations:
+      required: true

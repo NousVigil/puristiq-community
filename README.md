@@ -14,6 +14,8 @@ The app's source code is private. This repository holds **no code**. It exists s
 
 You can write in any of the app's 24 languages; English helps more people read it.
 
+No GitHub account? Write to **hello@puristiq.net** and we will add your request here for you.
+
 ## Please never post
 
 - Your health conditions, allergies or other medical information
